@@ -1,1 +1,1 @@
-autocore luci luci-i18n-base-fr luci-app-upnp luci-theme-argon
+autocore luci luci-i18n-base-fr luci-app-upnp luci-theme-argon luci-app-argon-config
