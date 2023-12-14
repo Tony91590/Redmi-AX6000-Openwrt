@@ -24,6 +24,6 @@ uci commit wireless
 
 
 
-#set mosdns
+#set upnpd
 /" >> /etc/sysupgrade.conf
 exit 0
