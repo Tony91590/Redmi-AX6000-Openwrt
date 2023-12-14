@@ -13,13 +13,13 @@ uci set wireless.@wifi-device[0].country='US'
 uci set wireless.@wifi-device[0].channel='auto'
 uci set wireless.@wifi-iface[0].encryption='psk2+ccmp'
 uci set wireless.@wifi-iface[0].key='12345678'
-uci set wireless.@wifi-iface[0].ssid='Openwrt'
+uci set wireless.@wifi-iface[0].ssid='ImmortalWrt'
 uci set wireless.@wifi-device[1].country='US'
 uci set wireless.@wifi-device[1].channel='auto'
 uci set wireless.@wifi-device[1].htmode='HE80'
 uci set wireless.@wifi-iface[1].encryption='psk2+ccmp'
 uci set wireless.@wifi-iface[1].key='12345678'
-uci set wireless.@wifi-iface[1].ssid='Openwrt_5G'
+uci set wireless.@wifi-iface[1].ssid='ImmortalWrt_5G'
 uci commit wireless
 
 #set upnpd
