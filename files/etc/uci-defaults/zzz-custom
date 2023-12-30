@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #set lan ip
-uci set network.lan.ipaddr='192.168.8.1'
+uci set network.lan.ipaddr='192.168.31.1'
 uci commit network
 
 #enable wlan
@@ -16,12 +16,9 @@ uci set wireless.@wifi-iface[0].key='12345678'
 uci set wireless.@wifi-iface[0].ssid='ImmortalWrt'
 uci set wireless.@wifi-device[1].country='US'
 uci set wireless.@wifi-device[1].channel='auto'
-uci set wireless.@wifi-device[1].htmode='HE160'
 uci set wireless.@wifi-iface[1].encryption='psk2+ccmp'
 uci set wireless.@wifi-iface[1].key='12345678'
 uci set wireless.@wifi-iface[1].ssid='ImmortalWrt_5G'
-uci set wireless.@wifi-device[1].he_bss_color=8
-uci set wireless.@wifi-device[1].he_su_beamformee=1
 uci commit wireless
 
 #set upnpd
