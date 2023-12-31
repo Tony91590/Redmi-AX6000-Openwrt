@@ -1,0 +1,7 @@
+#!/bin/sh /etc/rc.common
+START=00
+. /lib/functions/preinit.sh
+start() {
+        [ -e /data/overlay ] || mkdir /data/overlay
+        [ -e /data/overlay/upper ] || mkdir /data/overlay/upper
+        [ -e /data/overlay/work ] || mkdir /data/overlay/work
